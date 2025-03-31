@@ -1,0 +1,6 @@
+@Posly.Api_HostAddress = http://localhost:5110
+
+GET {{Posly.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

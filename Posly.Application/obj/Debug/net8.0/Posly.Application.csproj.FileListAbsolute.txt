@@ -1,0 +1,15 @@
+/home/user/posly/Posly.Application/bin/Debug/net8.0/Posly.Application.deps.json
+/home/user/posly/Posly.Application/bin/Debug/net8.0/Posly.Application.dll
+/home/user/posly/Posly.Application/bin/Debug/net8.0/Posly.Application.pdb
+/home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Application.AssemblyInfoInputs.cache
+/home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Application.AssemblyInfo.cs
+/home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Application.csproj.CoreCompileInputs.cache
+/home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Application.dll
+/home/user/posly/Posly.Application/obj/Debug/net8.0/refint/Posly.Application.dll
+/home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Application.pdb
+/home/user/posly/Posly.Application/obj/Debug/net8.0/ref/Posly.Application.dll
+/home/user/posly/Posly.Application/bin/Debug/net8.0/Posly.Domain.dll
+/home/user/posly/Posly.Application/bin/Debug/net8.0/Posly.Domain.pdb
+/home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Application.csproj.AssemblyReference.cache
+/home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Ap.0DBEAA41.Up2Date

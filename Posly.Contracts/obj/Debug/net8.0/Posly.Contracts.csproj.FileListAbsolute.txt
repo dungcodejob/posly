@@ -1,0 +1,11 @@
+/home/user/posly/Posly.Contracts/bin/Debug/net8.0/Posly.Contracts.deps.json
+/home/user/posly/Posly.Contracts/bin/Debug/net8.0/Posly.Contracts.dll
+/home/user/posly/Posly.Contracts/bin/Debug/net8.0/Posly.Contracts.pdb
+/home/user/posly/Posly.Contracts/obj/Debug/net8.0/Posly.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/posly/Posly.Contracts/obj/Debug/net8.0/Posly.Contracts.AssemblyInfoInputs.cache
+/home/user/posly/Posly.Contracts/obj/Debug/net8.0/Posly.Contracts.AssemblyInfo.cs
+/home/user/posly/Posly.Contracts/obj/Debug/net8.0/Posly.Contracts.csproj.CoreCompileInputs.cache
+/home/user/posly/Posly.Contracts/obj/Debug/net8.0/Posly.Contracts.dll
+/home/user/posly/Posly.Contracts/obj/Debug/net8.0/refint/Posly.Contracts.dll
+/home/user/posly/Posly.Contracts/obj/Debug/net8.0/Posly.Contracts.pdb
+/home/user/posly/Posly.Contracts/obj/Debug/net8.0/ref/Posly.Contracts.dll

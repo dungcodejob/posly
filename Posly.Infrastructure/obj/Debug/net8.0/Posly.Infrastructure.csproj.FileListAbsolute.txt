@@ -1,0 +1,17 @@
+/home/user/posly/Posly.Infrastructure/bin/Debug/net8.0/Posly.Infrastructure.deps.json
+/home/user/posly/Posly.Infrastructure/bin/Debug/net8.0/Posly.Infrastructure.dll
+/home/user/posly/Posly.Infrastructure/bin/Debug/net8.0/Posly.Infrastructure.pdb
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/Posly.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/Posly.Infrastructure.AssemblyInfoInputs.cache
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/Posly.Infrastructure.AssemblyInfo.cs
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/Posly.Infrastructure.csproj.CoreCompileInputs.cache
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/Posly.Infrastructure.dll
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/refint/Posly.Infrastructure.dll
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/Posly.Infrastructure.pdb
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/ref/Posly.Infrastructure.dll
+/home/user/posly/Posly.Infrastructure/bin/Debug/net8.0/Posly.Application.dll
+/home/user/posly/Posly.Infrastructure/bin/Debug/net8.0/Posly.Domain.dll
+/home/user/posly/Posly.Infrastructure/bin/Debug/net8.0/Posly.Application.pdb
+/home/user/posly/Posly.Infrastructure/bin/Debug/net8.0/Posly.Domain.pdb
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/Posly.Infrastructure.csproj.AssemblyReference.cache
+/home/user/posly/Posly.Infrastructure/obj/Debug/net8.0/Posly.In.0C553E75.Up2Date

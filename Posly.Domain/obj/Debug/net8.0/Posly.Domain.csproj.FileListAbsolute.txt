@@ -1,0 +1,11 @@
+/home/user/posly/Posly.Domain/bin/Debug/net8.0/Posly.Domain.deps.json
+/home/user/posly/Posly.Domain/bin/Debug/net8.0/Posly.Domain.dll
+/home/user/posly/Posly.Domain/bin/Debug/net8.0/Posly.Domain.pdb
+/home/user/posly/Posly.Domain/obj/Debug/net8.0/Posly.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/posly/Posly.Domain/obj/Debug/net8.0/Posly.Domain.AssemblyInfoInputs.cache
+/home/user/posly/Posly.Domain/obj/Debug/net8.0/Posly.Domain.AssemblyInfo.cs
+/home/user/posly/Posly.Domain/obj/Debug/net8.0/Posly.Domain.csproj.CoreCompileInputs.cache
+/home/user/posly/Posly.Domain/obj/Debug/net8.0/Posly.Domain.dll
+/home/user/posly/Posly.Domain/obj/Debug/net8.0/refint/Posly.Domain.dll
+/home/user/posly/Posly.Domain/obj/Debug/net8.0/Posly.Domain.pdb
+/home/user/posly/Posly.Domain/obj/Debug/net8.0/ref/Posly.Domain.dll

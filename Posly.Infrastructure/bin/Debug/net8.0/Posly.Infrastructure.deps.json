@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Posly.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Posly.Application": "1.0.0"
+        },
+        "runtime": {
+          "Posly.Infrastructure.dll": {}
+        }
+      },
+      "Posly.Application/1.0.0": {
+        "dependencies": {
+          "Posly.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Posly.Application.dll": {}
+        }
+      },
+      "Posly.Domain/1.0.0": {
+        "runtime": {
+          "Posly.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Posly.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Posly.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Posly.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
