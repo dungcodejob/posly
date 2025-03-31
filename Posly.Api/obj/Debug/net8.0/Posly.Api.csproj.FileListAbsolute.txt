@@ -39,3 +39,14 @@
 /home/user/posly/Posly.Api/bin/Debug/net8.0/Posly.Application.pdb
 /home/user/posly/Posly.Api/bin/Debug/net8.0/Posly.Infrastructure.pdb
 /home/user/posly/Posly.Api/bin/Debug/net8.0/Posly.Domain.pdb
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.csproj.AssemblyReference.cache
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.AssemblyInfoInputs.cache
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.AssemblyInfo.cs
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.csproj.CoreCompileInputs.cache
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.MvcApplicationPartsAssemblyInfo.cs
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.MvcApplicationPartsAssemblyInfo.cache
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.sourcelink.json
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.dll
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\refint\Posly.Api.dll
+E:\Projects\work\posly\Posly.Api\obj\Debug\net8.0\Posly.Api.pdb

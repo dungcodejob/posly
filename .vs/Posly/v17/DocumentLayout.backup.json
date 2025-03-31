@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\work\\posly\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|e:\\projects\\work\\posly\\posly.infrastructure\\services\\jwtsettingssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|solutionrelative:posly.infrastructure\\services\\jwtsettingssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|e:\\projects\\work\\posly\\posly.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|solutionrelative:posly.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C52D9B-48F5-4051-BA9C-C54C4886DAC7}|Posly.Api\\Posly.Api.csproj|e:\\projects\\work\\posly\\posly.api\\controllers\\authenticationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C52D9B-48F5-4051-BA9C-C54C4886DAC7}|Posly.Api\\Posly.Api.csproj|solutionrelative:posly.api\\controllers\\authenticationcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|e:\\projects\\work\\posly\\posly.infrastructure\\services\\datetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|solutionrelative:posly.infrastructure\\services\\datetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|e:\\projects\\work\\posly\\posly.infrastructure\\authentication\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|solutionrelative:posly.infrastructure\\authentication\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C52D9B-48F5-4051-BA9C-C54C4886DAC7}|Posly.Api\\Posly.Api.csproj|e:\\projects\\work\\posly\\posly.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C52D9B-48F5-4051-BA9C-C54C4886DAC7}|Posly.Api\\Posly.Api.csproj|solutionrelative:posly.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|e:\\projects\\work\\posly\\posly.application\\common\\interfaces\\services\\idatetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|solutionrelative:posly.application\\common\\interfaces\\services\\idatetimeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|e:\\projects\\work\\posly\\posly.infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3EA0CE-CD4E-4157-8806-CE4CF6876B92}|Posly.Infrastructure\\Posly.Infrastructure.csproj|solutionrelative:posly.infrastructure\\authentication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B630CE10-3FDD-480A-B8EB-060281FF38C6}|Posly.Domain\\Posly.Domain.csproj|e:\\projects\\work\\posly\\posly.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B630CE10-3FDD-480A-B8EB-060281FF38C6}|Posly.Domain\\Posly.Domain.csproj|solutionrelative:posly.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|e:\\projects\\work\\posly\\posly.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|solutionrelative:posly.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|e:\\projects\\work\\posly\\posly.application\\services\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|solutionrelative:posly.application\\services\\authentication\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|e:\\projects\\work\\posly\\posly.application\\services\\authentication\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|solutionrelative:posly.application\\services\\authentication\\authenticationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|e:\\projects\\work\\posly\\posly.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB4B93B-0B95-45AF-9605-56334796CE41}|Posly.Application\\Posly.Application.csproj|solutionrelative:posly.application\\services\\authentication\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtSettingsSetup.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Services\\JwtSettingsSetup.cs",
+              "RelativeDocumentMoniker": "Posly.Infrastructure\\Services\\JwtSettingsSetup.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Services\\JwtSettingsSetup.cs",
+              "RelativeToolTip": "Posly.Infrastructure\\Services\\JwtSettingsSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:27:29.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Posly.Api\\Program.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Api\\Program.cs",
+              "RelativeToolTip": "Posly.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:22:44.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Authentication\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Posly.Infrastructure\\Authentication\\JwtSettings.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Authentication\\JwtSettings.cs",
+              "RelativeToolTip": "Posly.Infrastructure\\Authentication\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:51:00.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDateTimeProvider.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Application\\Common\\Interfaces\\Services\\IDateTimeProvider.cs",
+              "RelativeDocumentMoniker": "Posly.Application\\Common\\Interfaces\\Services\\IDateTimeProvider.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Application\\Common\\Interfaces\\Services\\IDateTimeProvider.cs",
+              "RelativeToolTip": "Posly.Application\\Common\\Interfaces\\Services\\IDateTimeProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:48:07.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DateTimeProvider.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Services\\DateTimeProvider.cs",
+              "RelativeDocumentMoniker": "Posly.Infrastructure\\Services\\DateTimeProvider.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Services\\DateTimeProvider.cs",
+              "RelativeToolTip": "Posly.Infrastructure\\Services\\DateTimeProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:46:21.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Posly.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Posly.Infrastructure\\Authentication\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:21:46.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Posly.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Posly.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:21:39.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Posly.Domain\\Class1.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Domain\\Class1.cs",
+              "RelativeToolTip": "Posly.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:21:36.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Posly.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "RelativeToolTip": "Posly.Application\\Services\\Authentication\\AuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:19:08.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationControllers.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Api\\Controllers\\AuthenticationControllers.cs",
+              "RelativeDocumentMoniker": "Posly.Api\\Controllers\\AuthenticationControllers.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Api\\Controllers\\AuthenticationControllers.cs",
+              "RelativeToolTip": "Posly.Api\\Controllers\\AuthenticationControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:18:35.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Application\\Services\\Authentication\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Posly.Application\\Services\\Authentication\\IAuthenticationService.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Application\\Services\\Authentication\\IAuthenticationService.cs",
+              "RelativeToolTip": "Posly.Application\\Services\\Authentication\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:17:59.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthenticationResult.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Application\\Services\\Authentication\\AuthenticationResult.cs",
+              "RelativeDocumentMoniker": "Posly.Application\\Services\\Authentication\\AuthenticationResult.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Application\\Services\\Authentication\\AuthenticationResult.cs",
+              "RelativeToolTip": "Posly.Application\\Services\\Authentication\\AuthenticationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:17:53.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\Projects\\work\\posly\\Posly.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Posly.Application\\DependencyInjection.cs",
+              "ToolTip": "E:\\Projects\\work\\posly\\Posly.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Posly.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:16:09.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

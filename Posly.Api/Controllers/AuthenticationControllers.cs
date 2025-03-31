@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Posly.Contracts.Authentication;
-using Posly.Application.Common.Services.Authentication;
+using Posly.Application.Services.Authentication;
 
 namespace Posly.Api.Controllers;
 

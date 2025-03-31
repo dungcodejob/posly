@@ -9,3 +9,15 @@
 /home/user/posly/Posly.Domain/obj/Debug/net8.0/refint/Posly.Domain.dll
 /home/user/posly/Posly.Domain/obj/Debug/net8.0/Posly.Domain.pdb
 /home/user/posly/Posly.Domain/obj/Debug/net8.0/ref/Posly.Domain.dll
+E:\Projects\work\posly\Posly.Domain\bin\Debug\net8.0\Posly.Domain.deps.json
+E:\Projects\work\posly\Posly.Domain\bin\Debug\net8.0\Posly.Domain.dll
+E:\Projects\work\posly\Posly.Domain\bin\Debug\net8.0\Posly.Domain.pdb
+E:\Projects\work\posly\Posly.Domain\obj\Debug\net8.0\Posly.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\work\posly\Posly.Domain\obj\Debug\net8.0\Posly.Domain.AssemblyInfoInputs.cache
+E:\Projects\work\posly\Posly.Domain\obj\Debug\net8.0\Posly.Domain.AssemblyInfo.cs
+E:\Projects\work\posly\Posly.Domain\obj\Debug\net8.0\Posly.Domain.csproj.CoreCompileInputs.cache
+E:\Projects\work\posly\Posly.Domain\obj\Debug\net8.0\Posly.Domain.sourcelink.json
+E:\Projects\work\posly\Posly.Domain\obj\Debug\net8.0\Posly.Domain.dll
+E:\Projects\work\posly\Posly.Domain\obj\Debug\net8.0\refint\Posly.Domain.dll
+E:\Projects\work\posly\Posly.Domain\obj\Debug\net8.0\Posly.Domain.pdb
+E:\Projects\work\posly\Posly.Domain\obj\Debug\net8.0\ref\Posly.Domain.dll

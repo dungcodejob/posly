@@ -13,3 +13,12 @@
 /home/user/posly/Posly.Application/bin/Debug/net8.0/Posly.Domain.pdb
 /home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Application.csproj.AssemblyReference.cache
 /home/user/posly/Posly.Application/obj/Debug/net8.0/Posly.Ap.0DBEAA41.Up2Date
+E:\Projects\work\posly\Posly.Application\obj\Debug\net8.0\Posly.Application.csproj.AssemblyReference.cache
+E:\Projects\work\posly\Posly.Application\obj\Debug\net8.0\Posly.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\work\posly\Posly.Application\obj\Debug\net8.0\Posly.Application.AssemblyInfoInputs.cache
+E:\Projects\work\posly\Posly.Application\obj\Debug\net8.0\Posly.Application.AssemblyInfo.cs
+E:\Projects\work\posly\Posly.Application\obj\Debug\net8.0\Posly.Application.csproj.CoreCompileInputs.cache
+E:\Projects\work\posly\Posly.Application\obj\Debug\net8.0\Posly.Application.sourcelink.json
+E:\Projects\work\posly\Posly.Application\obj\Debug\net8.0\Posly.Application.dll
+E:\Projects\work\posly\Posly.Application\obj\Debug\net8.0\refint\Posly.Application.dll
+E:\Projects\work\posly\Posly.Application\obj\Debug\net8.0\Posly.Application.pdb

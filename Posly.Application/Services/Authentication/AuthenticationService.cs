@@ -1,4 +1,4 @@
-namespace Posly.Application.Common.Services.Authentication;
+namespace Posly.Application.Services.Authentication;
 
 public class AuthenticationService : IAuthenticationService
 {
