@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Posly.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ef5ac9dd896d5d4bec3aa345f123f1116ece11e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+835372f14c06971c4ea5fe736268e33c5238205b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Posly.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Posly.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
