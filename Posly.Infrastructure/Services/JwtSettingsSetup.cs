@@ -1,21 +1,22 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
+using Posly.Infrastructure.Authentication;
 
-namespace Posly.Infrastructure.Services
+namespace Posly.Infrastructure.Services;
+
+public class JwtSettingsSetup : IConfigureOptions<JwtSettings>
 {
-    public class JwtSettingsSetup: IConfigureOptions<JwtSettingsSetup>
+    private const string SectionName = "JwtSettings";
+    private readonly IConfiguration _configuration;
+
+    public JwtSettingsSetup(IConfiguration configuration)
     {
-        private const string SectionName = "JwtSettings";
-        private readonly IConfiguration _configuration;
+        _configuration = configuration;
+    }
 
-        public JwtSettingsSetup(IConfiguration configuration)
-        {
-            _configuration = configuration;
-        }
-
-        public void Configure(JwtSettingsSetup options)
-        {
-            _configuration.GetSection(SectionName).
-        }
+    public void Configure(JwtSettings options)
+    {
+        _configuration.GetSection(SectionName).Bind(options);
     }
 }
+

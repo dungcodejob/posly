@@ -1,26 +1,53 @@
-namespace Posly.Application.Services.Authentication;
+using Posly.Application.Common.Interfaces.Presentation;
+using Posly.Application.Common.Interfaces.Authentication;
+using Posly.Domain.Entities;
 
+
+namespace Posly.Application.Services.Authentication;
 public class AuthenticationService : IAuthenticationService
 {
-    public AuthenticationResult Login(string email, string passowrd)
+    private readonly IJwtTokenGenerator _jwtTokenGenerator;
+    private readonly IUserRepository _userRepository;
+
+    public AuthenticationService(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository)
     {
+        _jwtTokenGenerator = jwtTokenGenerator;
+        _userRepository = userRepository;
+    }
+
+    public AuthenticationResult Login(string email, string password)
+    {
+        var user = _userRepository.GetUserByEmail(email) ?? throw new Exception("User with given email does not exist");
+
+        if(user.Password != password) {
+            throw new Exception("Invalid password.");
+        }
+
+        var token = _jwtTokenGenerator.GenerateToken(user);
+
         return new AuthenticationResult(
-            Guid.NewGuid(),
-            "John",
-            "Doe",
-            email,
-            "token"
+            user,
+           token
         );
     }
 
-    public AuthenticationResult Register(string firstName, string lastName, string email, string passowrd)
+    public AuthenticationResult Register(string firstName, string lastName, string email, string password)
     {
+        var user = new User
+        {
+            FirstName = firstName,
+            LastName = lastName,
+            Email = email,
+            Password = password
+        };
+
+        _userRepository.Add(user);
+
+        var token = _jwtTokenGenerator.GenerateToken(user);
+
         return new AuthenticationResult(
-            Guid.NewGuid(),
-            firstName,
-            lastName,
-            email,
-            "token"
+            user,
+           token
         );
     }
 }

@@ -1,42 +1,48 @@
-
-
-
-
+using Microsoft.Extensions.Options;
 using System.Security.Claims;
-using Posly.Application.Common.interfaces.Authentication;
-using System.IdentityModel.Tokens.Jwt
-
-
-using System.Net;
+using Posly.Application.Common.Interfaces.Authentication;
+using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Posly.Infrastructure.Services;
+using Posly.Domain.Entities;
+
 
 namespace Posly.Infrastructure.Authentication;
 
 public class JwtTokenGenerator : IJwtTokenGenerator
 {
-    public string GenerateToken(Guid tenantId, Guid userId, string firstName, string lastName)
+    private readonly JwtSettings _jwtSettings;
+    private readonly DateTimeProvider _dateTimeProvider;
+
+    public JwtTokenGenerator(IOptions<JwtSettings> jwtSettings, DateTimeProvider dateTimeProvider)
     {
-        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(auth.Key));
+        _jwtSettings = jwtSettings.Value;
+        _dateTimeProvider = dateTimeProvider;
+    }
+
+    public string GenerateToken(User user)
+    {
+        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Secret));
         var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
         var claims = new[]
         {
-            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
-            new Claim(JwtRegisteredClaimNames.GivenName, firstName),
-            new Claim(JwtRegisteredClaimNames.FamilyName, lastName),
+            new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName),
+            new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim("use-id",userId.ToString()),
-            new Claim("tenant-id",tenantId.ToString()),
+            new Claim("use-id",user.Id.ToString()),
+            new Claim("tenant-id",user.TenantId.ToString()),
         };
 
         var token = new JwtSecurityToken(
-        issuer: auth.Issuer,
-        audience: auth.Audience,
-        claims: claims,
-        expires: DateTime.Now.AddMinutes(30),
-        signingCredentials: credentials
-    );
+            issuer: _jwtSettings.Issuer,
+            audience: _jwtSettings.Audience,
+            claims: claims,
+            expires: _dateTimeProvider.UtcNow.AddMinutes(30),
+            signingCredentials: credentials
+        );
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
 }

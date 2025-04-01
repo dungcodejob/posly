@@ -1,7 +1,9 @@
 
-namespace Posly.Application.Common.interfaces.Authentication;
+using Posly.Domain.Entities;
+
+namespace Posly.Application.Common.Interfaces.Authentication;
 
 public interface IJwtTokenGenerator
 {
-    string GenerateToken(Guid tenant, Guid userId, string firstName, string lastName);
+    string GenerateToken(User user);
 }

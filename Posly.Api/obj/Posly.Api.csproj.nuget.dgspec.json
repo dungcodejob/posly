@@ -1,45 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\work\\posly\\Posly.Api\\Posly.Api.csproj": {}
+    "/home/user/posly/Posly.Api/Posly.Api.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\work\\posly\\Posly.Api\\Posly.Api.csproj": {
+    "/home/user/posly/Posly.Api/Posly.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\work\\posly\\Posly.Api\\Posly.Api.csproj",
+        "projectUniqueName": "/home/user/posly/Posly.Api/Posly.Api.csproj",
         "projectName": "Posly.Api",
-        "projectPath": "E:\\Projects\\work\\posly\\Posly.Api\\Posly.Api.csproj",
-        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\work\\posly\\Posly.Api\\obj\\",
+        "projectPath": "/home/user/posly/Posly.Api/Posly.Api.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/posly/Posly.Api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\work\\posly\\Posly.Application\\Posly.Application.csproj": {
-                "projectPath": "E:\\Projects\\work\\posly\\Posly.Application\\Posly.Application.csproj"
+              "/home/user/posly/Posly.Application/Posly.Application.csproj": {
+                "projectPath": "/home/user/posly/Posly.Application/Posly.Application.csproj"
               },
-              "E:\\Projects\\work\\posly\\Posly.Contracts\\Posly.Contracts.csproj": {
-                "projectPath": "E:\\Projects\\work\\posly\\Posly.Contracts\\Posly.Contracts.csproj"
+              "/home/user/posly/Posly.Contracts/Posly.Contracts.csproj": {
+                "projectPath": "/home/user/posly/Posly.Contracts/Posly.Contracts.csproj"
               },
-              "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Posly.Infrastructure.csproj": {
-                "projectPath": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Posly.Infrastructure.csproj"
+              "/home/user/posly/Posly.Infrastructure/Posly.Infrastructure.csproj": {
+                "projectPath": "/home/user/posly/Posly.Infrastructure/Posly.Infrastructure.csproj"
               }
             }
           }
@@ -53,8 +47,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -88,40 +81,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/c67p00lksmyafxl5mhpx8zm67jwk95gr-dotnet-sdk-8.0.300/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\work\\posly\\Posly.Application\\Posly.Application.csproj": {
+    "/home/user/posly/Posly.Application/Posly.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\work\\posly\\Posly.Application\\Posly.Application.csproj",
+        "projectUniqueName": "/home/user/posly/Posly.Application/Posly.Application.csproj",
         "projectName": "Posly.Application",
-        "projectPath": "E:\\Projects\\work\\posly\\Posly.Application\\Posly.Application.csproj",
-        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\work\\posly\\Posly.Application\\obj\\",
+        "projectPath": "/home/user/posly/Posly.Application/Posly.Application.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/posly/Posly.Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\work\\posly\\Posly.Domain\\Posly.Domain.csproj": {
-                "projectPath": "E:\\Projects\\work\\posly\\Posly.Domain\\Posly.Domain.csproj"
+              "/home/user/posly/Posly.Domain/Posly.Domain.csproj": {
+                "projectPath": "/home/user/posly/Posly.Domain/Posly.Domain.csproj"
               }
             }
           }
@@ -135,8 +122,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -163,32 +149,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/c67p00lksmyafxl5mhpx8zm67jwk95gr-dotnet-sdk-8.0.300/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\work\\posly\\Posly.Contracts\\Posly.Contracts.csproj": {
+    "/home/user/posly/Posly.Contracts/Posly.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\work\\posly\\Posly.Contracts\\Posly.Contracts.csproj",
+        "projectUniqueName": "/home/user/posly/Posly.Contracts/Posly.Contracts.csproj",
         "projectName": "Posly.Contracts",
-        "projectPath": "E:\\Projects\\work\\posly\\Posly.Contracts\\Posly.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\work\\posly\\Posly.Contracts\\obj\\",
+        "projectPath": "/home/user/posly/Posly.Contracts/Posly.Contracts.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/posly/Posly.Contracts/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -206,8 +186,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -228,32 +207,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/c67p00lksmyafxl5mhpx8zm67jwk95gr-dotnet-sdk-8.0.300/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\work\\posly\\Posly.Domain\\Posly.Domain.csproj": {
+    "/home/user/posly/Posly.Domain/Posly.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\work\\posly\\Posly.Domain\\Posly.Domain.csproj",
+        "projectUniqueName": "/home/user/posly/Posly.Domain/Posly.Domain.csproj",
         "projectName": "Posly.Domain",
-        "projectPath": "E:\\Projects\\work\\posly\\Posly.Domain\\Posly.Domain.csproj",
-        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\work\\posly\\Posly.Domain\\obj\\",
+        "projectPath": "/home/user/posly/Posly.Domain/Posly.Domain.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/posly/Posly.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -271,8 +244,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -293,40 +265,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/c67p00lksmyafxl5mhpx8zm67jwk95gr-dotnet-sdk-8.0.300/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Posly.Infrastructure.csproj": {
+    "/home/user/posly/Posly.Infrastructure/Posly.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Posly.Infrastructure.csproj",
+        "projectUniqueName": "/home/user/posly/Posly.Infrastructure/Posly.Infrastructure.csproj",
         "projectName": "Posly.Infrastructure",
-        "projectPath": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\Posly.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\work\\posly\\Posly.Infrastructure\\obj\\",
+        "projectPath": "/home/user/posly/Posly.Infrastructure/Posly.Infrastructure.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/posly/Posly.Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\work\\posly\\Posly.Application\\Posly.Application.csproj": {
-                "projectPath": "E:\\Projects\\work\\posly\\Posly.Application\\Posly.Application.csproj"
+              "/home/user/posly/Posly.Application/Posly.Application.csproj": {
+                "projectPath": "/home/user/posly/Posly.Application/Posly.Application.csproj"
               }
             }
           }
@@ -340,14 +306,21 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
               "version": "[9.0.3, )"
             },
@@ -376,7 +349,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/c67p00lksmyafxl5mhpx8zm67jwk95gr-dotnet-sdk-8.0.300/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
