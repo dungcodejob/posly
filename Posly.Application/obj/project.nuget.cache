@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1iTaz7CuwOg=",
+  "dgSpecHash": "hoxXTxVl5XE=",
   "success": true,
-  "projectFilePath": "/home/user/posly/Posly.Application/Posly.Application.csproj",
+  "projectFilePath": "E:\\Projects\\work\\posly\\Posly.Application\\Posly.Application.csproj",
   "expectedPackageFiles": [
-    "/home/user/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.3/microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
-    "/home/user/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.3/microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512"
+    "C:\\Users\\Pc\\.nuget\\packages\\erroror\\2.0.1\\erroror.2.0.1.nupkg.sha512",
+    "C:\\Users\\Pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.3\\microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
+    "C:\\Users\\Pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\Pc\\.nuget\\packages\\oneof\\3.0.271\\oneof.3.0.271.nupkg.sha512"
   ],
   "logs": []
 }

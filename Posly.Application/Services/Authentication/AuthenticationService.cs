@@ -1,6 +1,9 @@
 using Posly.Application.Common.Interfaces.Presentation;
 using Posly.Application.Common.Interfaces.Authentication;
 using Posly.Domain.Entities;
+using OneOf;
+using ErrorOr;
+using Posly.Domain.Common.Errors;
 
 
 namespace Posly.Application.Services.Authentication;
@@ -15,12 +18,17 @@ public class AuthenticationService : IAuthenticationService
         _userRepository = userRepository;
     }
 
-    public AuthenticationResult Login(string email, string password)
+    public ErrorOr<AuthenticationResult> Login(string email, string password)
     {
-        var user = _userRepository.GetUserByEmail(email) ?? throw new Exception("User with given email does not exist");
 
-        if(user.Password != password) {
-            throw new Exception("Invalid password.");
+        if(_userRepository.GetUserByEmail(email) is not User user)
+        {
+            return Errors.Authentication.InvalidCredentials;
+        }
+
+        if(user.Password != password) 
+        {
+            return Errors.Authentication.InvalidCredentials;
         }
 
         var token = _jwtTokenGenerator.GenerateToken(user);
@@ -31,8 +39,15 @@ public class AuthenticationService : IAuthenticationService
         );
     }
 
-    public AuthenticationResult Register(string firstName, string lastName, string email, string password)
+    public ErrorOr<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
     {
+
+
+        if (_userRepository.GetUserByEmail(email) is not null)
+        {
+            return Errors.User.DuplicateEmail;
+        }
+
         var user = new User
         {
             FirstName = firstName,

@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/posly/Posly.Contracts/Posly.Contracts.csproj": {}
+    "E:\\Projects\\work\\posly\\Posly.Contracts\\Posly.Contracts.csproj": {}
   },
   "projects": {
-    "/home/user/posly/Posly.Contracts/Posly.Contracts.csproj": {
+    "E:\\Projects\\work\\posly\\Posly.Contracts\\Posly.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/posly/Posly.Contracts/Posly.Contracts.csproj",
+        "projectUniqueName": "E:\\Projects\\work\\posly\\Posly.Contracts\\Posly.Contracts.csproj",
         "projectName": "Posly.Contracts",
-        "projectPath": "/home/user/posly/Posly.Contracts/Posly.Contracts.csproj",
-        "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/posly/Posly.Contracts/obj/",
+        "projectPath": "E:\\Projects\\work\\posly\\Posly.Contracts\\Posly.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\work\\posly\\Posly.Contracts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/c67p00lksmyafxl5mhpx8zm67jwk95gr-dotnet-sdk-8.0.300/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -22,3 +22,15 @@ E:/Projects/work/posly/Posly.Contracts/obj/Debug/net8.0/refint/Posly.Contracts.d
 E:/Projects/work/posly/Posly.Contracts/obj/Debug/net8.0/Posly.Contracts.pdb
 E:/Projects/work/posly/Posly.Contracts/obj/Debug/net8.0/ref/Posly.Contracts.dll
 /home/user/posly/Posly.Contracts/obj/Debug/net8.0/Posly.Contracts.sourcelink.json
+E:\Projects\work\posly\Posly.Contracts\bin\Debug\net8.0\Posly.Contracts.deps.json
+E:\Projects\work\posly\Posly.Contracts\bin\Debug\net8.0\Posly.Contracts.dll
+E:\Projects\work\posly\Posly.Contracts\bin\Debug\net8.0\Posly.Contracts.pdb
+E:\Projects\work\posly\Posly.Contracts\obj\Debug\net8.0\Posly.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\work\posly\Posly.Contracts\obj\Debug\net8.0\Posly.Contracts.AssemblyInfoInputs.cache
+E:\Projects\work\posly\Posly.Contracts\obj\Debug\net8.0\Posly.Contracts.AssemblyInfo.cs
+E:\Projects\work\posly\Posly.Contracts\obj\Debug\net8.0\Posly.Contracts.csproj.CoreCompileInputs.cache
+E:\Projects\work\posly\Posly.Contracts\obj\Debug\net8.0\Posly.Contracts.sourcelink.json
+E:\Projects\work\posly\Posly.Contracts\obj\Debug\net8.0\Posly.Contracts.dll
+E:\Projects\work\posly\Posly.Contracts\obj\Debug\net8.0\refint\Posly.Contracts.dll
+E:\Projects\work\posly\Posly.Contracts\obj\Debug\net8.0\Posly.Contracts.pdb
+E:\Projects\work\posly\Posly.Contracts\obj\Debug\net8.0\ref\Posly.Contracts.dll

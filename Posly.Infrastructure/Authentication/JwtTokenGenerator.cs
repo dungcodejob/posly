@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Posly.Infrastructure.Services;
 using Posly.Domain.Entities;
+using Posly.Application.Common.Interfaces.Services;
 
 
 namespace Posly.Infrastructure.Authentication;
@@ -13,9 +14,9 @@ namespace Posly.Infrastructure.Authentication;
 public class JwtTokenGenerator : IJwtTokenGenerator
 {
     private readonly JwtSettings _jwtSettings;
-    private readonly DateTimeProvider _dateTimeProvider;
+    private readonly IDateTimeProvider _dateTimeProvider;
 
-    public JwtTokenGenerator(IOptions<JwtSettings> jwtSettings, DateTimeProvider dateTimeProvider)
+    public JwtTokenGenerator(IOptions<JwtSettings> jwtSettings, IDateTimeProvider dateTimeProvider)
     {
         _jwtSettings = jwtSettings.Value;
         _dateTimeProvider = dateTimeProvider;

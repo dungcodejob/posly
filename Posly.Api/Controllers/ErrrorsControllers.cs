@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Posly.Contracts.Authentication;
-using Posly.Application.Services.Authentication;
 using Microsoft.AspNetCore.Diagnostics;
 using Posly.Application.Common.Errors;
 namespace Posly.Api.Controllers;
@@ -18,7 +16,7 @@ public class ErrorsController : ControllerBase
 
         var (statusCode, message) = exception switch
         {
-            IServiceException serviceException => ((int)serviceException.StatusCode, serviceException.ErrorMessage),
+            IError serviceException => ((int)serviceException.StatusCode, serviceException.ErrorMessage),
             _ => (StatusCodes.Status500InternalServerError, "An unexpected error occurred.")
         };
 

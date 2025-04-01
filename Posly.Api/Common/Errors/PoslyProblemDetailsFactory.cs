@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Microsoft.Extensions.Options;
+using ErrorOr;
+using Posly.Api.Common.Http;
 
-namespace Posly.Api.Errors;
+namespace Posly.Api.Common.Errors;
 
 public class PoslyProblemDetailsFactory : ProblemDetailsFactory
 {
@@ -43,7 +45,11 @@ public class PoslyProblemDetailsFactory : ProblemDetailsFactory
 
     public override ValidationProblemDetails CreateValidationProblemDetails(HttpContext httpContext, ModelStateDictionary modelStateDictionary, int? statusCode = null, string? title = null, string? type = null, string? detail = null, string? instance = null)
     {
-        throw new NotImplementedException();
+        var validationproblemdetails = new ValidationProblemDetails
+        {
+            Status = statusCode,
+        };
+        return validationproblemdetails;
     }
 
     private void ApplyProblemDetailsDefault(HttpContext httpContext, ProblemDetails problemDetails, int statusCode)
@@ -60,5 +66,14 @@ public class PoslyProblemDetailsFactory : ProblemDetailsFactory
         {
             problemDetails.Extensions["traceId"] = traceId;
         }
+
+
+        var errors = httpContext?.Items[HttpContextItemKey.Errors] as List<Error>;
+        if (errors is not null)
+        {
+            problemDetails.Extensions.Add("errorCode", errors.First().Code);
+            problemDetails.Extensions.Add("errorCodes", errors.Select(error => error.Code));
+        }
+
     }
 }

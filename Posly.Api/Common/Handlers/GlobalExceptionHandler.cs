@@ -1,8 +1,9 @@
+using ErrorOr;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
-namespace Posly.Api.Handlers;
+namespace Posly.Api.Common.Handlers;
 
 
 internal sealed class GlobalExceptionHandler : IExceptionHandler
@@ -21,6 +22,8 @@ internal sealed class GlobalExceptionHandler : IExceptionHandler
     {
         _logger.LogError(
             exception, "Exception occurred: {Message}", exception.Message);
+
+        
 
         var problemDetails = new ProblemDetails
         {
