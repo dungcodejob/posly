@@ -8,20 +8,28 @@ using Posly.Infrastructure.Services;
 
 namespace Posly.Infrastructure;
 
-public static class DependencyInjection {
-    public static IServiceCollection AddInfrastructure(this IServiceCollection services) {
+public static class DependencyInjection
+{
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services)
+    {
 
-        services.ConfigureOptions<JwtSettingsSetup>();
-        services.ConfigureOptions<JwtOptionsSetup>();
 
+
+        services.AddAuth();
         services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
         services.AddSingleton<ITenantProvider, TenantProvider>();
+        services.AddScoped<IUserRepository, UserRepository>();
+
+        return services;
+    }
+
+    private static IServiceCollection AddAuth(this IServiceCollection services)
+    {
+        services.ConfigureOptions<JwtSettingsSetup>();
+        services.ConfigureOptions<JwtOptionsSetup>();
         services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
+        services.AddAuthentication().AddJwtBearer();
 
-
-
-        services.AddScoped<IUserRepository,UserRepository>();
-        
         return services;
     }
 }

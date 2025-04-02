@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Diagnostics;
-using Posly.Application.Common.Errors;
 namespace Posly.Api.Controllers;
 
 

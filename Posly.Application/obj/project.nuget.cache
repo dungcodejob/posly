@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2vutQTHXeBk=",
+  "dgSpecHash": "aFCTVguOQEI=",
   "success": true,
   "projectFilePath": "/home/user/posly/Posly.Application/Posly.Application.csproj",
   "expectedPackageFiles": [
     "/home/user/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
+    "/home/user/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/home/user/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "/home/user/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
     "/home/user/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.3/microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",

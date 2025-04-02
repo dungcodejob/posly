@@ -1,5 +1,6 @@
 ﻿using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Posly.Api.Common.Http;
 
 namespace Posly.Api.Controllers
@@ -8,9 +9,24 @@ namespace Posly.Api.Controllers
     {
         protected IActionResult Problem(List<Error> errors)
         {
+            if(errors.Count is 0) {
+                return Problem();
+            }
+
+            if (errors.All(error => error.Type == ErrorType.Validation))
+            {
+
+                return ValidationProblem(errors);
+            }
+
             HttpContext.Items[HttpContextItemKey.Errors] = errors;
 
-            var statusCode = errors.First().Type switch
+            return Problem(errors.First());
+        }
+
+        private IActionResult Problem(Error error)
+        {
+            var statusCode = error.Type switch
             {
                 ErrorType.Conflict => StatusCodes.Status409Conflict,
                 ErrorType.NotFound => StatusCodes.Status404NotFound,
@@ -18,7 +34,19 @@ namespace Posly.Api.Controllers
                 _ => StatusCodes.Status500InternalServerError
             };
 
-            return Problem(statusCode: statusCode, title: errors.First().Description);
+            return Problem(statusCode: statusCode, title: error.Description);
+        }
+
+        private IActionResult ValidationProblem(List<Error> errors)
+        {
+            var modelStateDictionary = new ModelStateDictionary();
+
+            foreach (var error in errors)
+            {
+                modelStateDictionary.AddModelError(error.Code, error.Description);
+            }
+
+            return ValidationProblem(modelStateDictionary);
         }
     }
 }

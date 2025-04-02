@@ -118,3 +118,11 @@ E:/Projects/work/posly/Posly.Api/obj/Debug/net8.0/Posly.Api.genruntimeconfig.cac
 E:/Projects/work/posly/Posly.Api/obj/Debug/net8.0/ref/Posly.Api.dll
 E:/Projects/work/posly/Posly.Api/bin/Debug/net8.0/ErrorOr.dll
 E:/Projects/work/posly/Posly.Api/bin/Debug/net8.0/OneOf.dll
+/home/user/posly/Posly.Api/bin/Debug/net8.0/ErrorOr.dll
+/home/user/posly/Posly.Api/bin/Debug/net8.0/FluentValidation.dll
+/home/user/posly/Posly.Api/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/user/posly/Posly.Api/bin/Debug/net8.0/Mapster.dll
+/home/user/posly/Posly.Api/bin/Debug/net8.0/Mapster.Core.dll
+/home/user/posly/Posly.Api/bin/Debug/net8.0/MediatR.dll
+/home/user/posly/Posly.Api/bin/Debug/net8.0/MediatR.Contracts.dll
+/home/user/posly/Posly.Api/bin/Debug/net8.0/OneOf.dll
