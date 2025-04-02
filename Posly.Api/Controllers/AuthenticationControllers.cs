@@ -2,10 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Posly.Contracts.Authentication;
 using Posly.Application.Services.Authentication;
 using Posly.Application.Authentication.Queries.Login;
-
 using Posly.Domain.Common.Errors;
 using MediatR;
 using Posly.Application.Authentication.Commands.Register;
+using MapsterMapper;
 
 namespace Posly.Api.Controllers;
 
@@ -14,12 +14,14 @@ namespace Posly.Api.Controllers;
 [Route("auth")]
 public class AuthenticationController : ApiController
 {
-    private readonly IMediator _mediator;
+    private readonly ISender _mediator;
+    private readonly IMapper  _mapper;
 
 
-    public AuthenticationController(IMediator mediator)
+    public AuthenticationController(IMediator mediator, IMapper  mapper)
     {
         _mediator = mediator;
+        _mapper = mapper;
     }
 
     [HttpPost("login")]
@@ -37,7 +39,7 @@ public class AuthenticationController : ApiController
         }
 
         return authResult.Match(
-            result => Ok(MapAuthResult(result)),
+            result => Ok(_mapper.Map<AuthenticationResponse>(result)),
             errors => Problem(errors)
             );
     }
@@ -50,20 +52,11 @@ public class AuthenticationController : ApiController
         var authResult = await _mediator.Send(command);
 
         return authResult.Match(
-            result => Ok(MapAuthResult(result)),
+            result => Ok(_mapper.Map<AuthenticationResponse>(result)),
             errors => Problem(errors)
             );
     }
 
-    private static AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
-    {
-        return new AuthenticationResponse(
-             authResult.User.Id,
-            authResult.User.FirstName,
-            authResult.User.LastName,
-            authResult.User.Email,
-            authResult.Token
-            );
-    }
+
 
 }

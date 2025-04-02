@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Mvc.Infrastructure;
-using Posly.Api.Common.Errors;
-using Posly.Api.Common.Handlers;
+using Posly.Api;
 using Posly.Application;
 using Posly.Infrastructure;
 
@@ -14,15 +12,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpContextAccessor();
 
 builder.Services
-.AddInfrastructure()
-.AddApplication();
+.AddPresentation()
+.AddApplication()
+.AddInfrastructure();
 
 
 
 builder.Services.AddControllers();
-builder.Services.AddTransient<ProblemDetailsFactory, PoslyProblemDetailsFactory>();
-builder.Services.AddProblemDetails();
-builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+
 
 var app = builder.Build();
 
