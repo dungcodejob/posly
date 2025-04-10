@@ -15,10 +15,10 @@ public static class DependencyInjection
 
 
 
-        services.AddAuth();
+        services.AddAuth().AddPersistance();
         services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
         services.AddSingleton<ITenantProvider, TenantProvider>();
-        services.AddScoped<IUserRepository, UserRepository>();
+        
 
         return services;
     }
@@ -32,4 +32,11 @@ public static class DependencyInjection
 
         return services;
     }
+
+    private static IServiceCollection AddPersistance(this IServiceCollection services)
+    {
+        services.AddScoped<IUserRepository, UserRepository>();
+        return services;
+    }
+
 }
